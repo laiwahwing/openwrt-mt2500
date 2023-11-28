@@ -9,8 +9,6 @@ name: OpenWrt-CI
 
 on:
   repository_dispatch:
-  schedule:
-    - cron: 0 20 * * *
   release:
     types: [published]
     
